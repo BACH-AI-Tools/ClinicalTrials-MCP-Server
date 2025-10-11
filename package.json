@@ -1,18 +1,18 @@
 {
   "name": "bach-clinical-trials",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for accessing ClinicalTrials.gov API - search and retrieve clinical trial data",
   "type": "module",
   "author": "bachstudio",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server.git"
+    "url": "https://github.com/BACH-AI-Tools/ClinicalTrials-MCP-Server.git"
   },
   "bugs": {
-    "url": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server/issues"
+    "url": "https://github.com/BACH-AI-Tools/ClinicalTrials-MCP-Server/issues"
   },
-  "homepage": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server#readme",
+  "homepage": "https://github.com/BACH-AI-Tools/ClinicalTrials-MCP-Server#readme",
   "keywords": [
     "mcp",
     "model-context-protocol",

@@ -4,7 +4,7 @@
 
 A comprehensive Model Context Protocol (MCP) server that provides access to the ClinicalTrials.gov API, enabling researchers, clinicians, and developers to access real-time clinical trial data programmatically.
 
-**Developed by [bachstudio](https://github.com/rongquanfeng/ClinicalTrials-MCP-Server)**
+**Developed by [bachstudio](https://github.com/BACH-AI-Tools/ClinicalTrials-MCP-Server)**
 
 ## 🚀 Quick Start with npx (Recommended)
 
@@ -373,4 +373,4 @@ MIT License - See LICENSE file for details
 **Data Source**: ClinicalTrials.gov (https://clinicaltrials.gov)
 **API Documentation**: https://clinicaltrials.gov/data-api/api
 **Server Version**: 1.0.0
-**Repository**: https://github.com/rongquanfeng/ClinicalTrials-MCP-Server
+**Repository**: https://github.com/BACH-AI-Tools/ClinicalTrials-MCP-Server
