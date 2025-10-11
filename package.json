@@ -1,0 +1,50 @@
+{
+  "name": "clinical-trials-server",
+  "version": "0.1.0",
+  "description": "MCP server for accessing ClinicalTrials.gov API - search and retrieve clinical trial data",
+  "type": "module",
+  "author": "Augmented Nature",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augmented-nature/clinical-trials-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/augmented-nature/clinical-trials-mcp-server/issues"
+  },
+  "homepage": "https://github.com/augmented-nature/clinical-trials-mcp-server#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "clinical-trials",
+    "clinicaltrials.gov",
+    "medical",
+    "healthcare",
+    "research",
+    "clinical-research",
+    "fda",
+    "nih"
+  ],
+  "bin": {
+    "clinical-trials-server": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
