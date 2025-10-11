@@ -1,18 +1,18 @@
 {
-  "name": "clinical-trials-server",
-  "version": "0.1.0",
+  "name": "bach-clinical-trials",
+  "version": "1.0.0",
   "description": "MCP server for accessing ClinicalTrials.gov API - search and retrieve clinical trial data",
   "type": "module",
-  "author": "Augmented Nature",
+  "author": "bachstudio",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/augmented-nature/clinical-trials-mcp-server.git"
+    "url": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server.git"
   },
   "bugs": {
-    "url": "https://github.com/augmented-nature/clinical-trials-mcp-server/issues"
+    "url": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server/issues"
   },
-  "homepage": "https://github.com/augmented-nature/clinical-trials-mcp-server#readme",
+  "homepage": "https://github.com/rongquanfeng/ClinicalTrials-MCP-Server#readme",
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -23,10 +23,11 @@
     "research",
     "clinical-research",
     "fda",
-    "nih"
+    "nih",
+    "bachstudio"
   ],
   "bin": {
-    "clinical-trials-server": "./build/index.js"
+    "bach-clinical-trials": "./build/index.js"
   },
   "files": [
     "build",

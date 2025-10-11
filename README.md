@@ -1,10 +1,10 @@
 ![Logo](logo.png)
 
-# Unofficial Clinical Trials MCP Server
+# Clinical Trials MCP Server
 
 A comprehensive Model Context Protocol (MCP) server that provides access to the ClinicalTrials.gov API, enabling researchers, clinicians, and developers to access real-time clinical trial data programmatically.
 
-**Developed by [Augmented Nature](https://augmentednature.ai)**
+**Developed by [bachstudio](https://github.com/rongquanfeng/ClinicalTrials-MCP-Server)**
 
 ## 🚀 Quick Start with npx (Recommended)
 
@@ -15,13 +15,15 @@ No installation required! Use npx to run the server directly:
   "mcpServers": {
     "clinical-trials": {
       "command": "npx",
-      "args": ["-y", "clinical-trials-server"]
+      "args": ["-y", "bach-clinical-trials"]
     }
   }
 }
 ```
 
 Save this configuration and restart your MCP client. The `npx` command will automatically download and run the latest version from npm.
+
+**Package URL**: https://www.npmjs.com/package/bach-clinical-trials
 
 ---
 
@@ -370,4 +372,5 @@ MIT License - See LICENSE file for details
 
 **Data Source**: ClinicalTrials.gov (https://clinicaltrials.gov)
 **API Documentation**: https://clinicaltrials.gov/data-api/api
-**Server Version**: 0.1.0
+**Server Version**: 1.0.0
+**Repository**: https://github.com/rongquanfeng/ClinicalTrials-MCP-Server

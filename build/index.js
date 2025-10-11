@@ -17,8 +17,8 @@ class ClinicalTrialsServer {
     axiosInstance;
     constructor() {
         this.server = new Server({
-            name: "clinical-trials-server",
-            version: "0.1.0",
+            name: "bach-clinical-trials",
+            version: "1.0.0",
         }, {
             capabilities: {
                 tools: {},
@@ -30,7 +30,7 @@ class ClinicalTrialsServer {
             timeout: 30000,
             headers: {
                 'Accept': 'application/json',
-                'User-Agent': 'ClinicalTrials-MCP-Server/0.1.0',
+                'User-Agent': 'bach-clinical-trials/1.0.0',
             },
         });
         this.setupToolHandlers();
